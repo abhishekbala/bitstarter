@@ -4,7 +4,7 @@ var app = express.createServer(express.logger());
 
 var fs = require('fs');
 
-fs.readFileSync('./index.html', encoding);
+fs.readFileSync('./index.html', 'encoding');
 var buffer = new Buffer(16);
 var bufferStr = buffer.toString(fileBuffer);
 
